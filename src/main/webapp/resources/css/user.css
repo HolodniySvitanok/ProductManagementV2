@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+
+#addUserForm{
+	padding-bottom: 20px;
+}
+ table{
+	background-color: #FFFFF0;
+	border-collapse: separate;
+	min-width: 300px;
+}
+
+ th{
+	padding: 10px;
+}
+
+ td{
+	padding: 5px;
+	border: 1px solid silver;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN" "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+
+	<definition name="baseLayoutOrder" template="/WEB-INF/views/tiles/default/layout.jsp">
+		<put-attribute name="title" value="Управление заказами" />
+		<put-attribute name="header" value="/WEB-INF/views/tiles/default/header.jsp" />
+		<put-attribute name="left"	value="/WEB-INF/views/tiles/order/left.jsp" />
+		<put-attribute name="right"	value="/WEB-INF/views/tiles/default/right.jsp" />
+		<put-attribute name="footer"	value="/WEB-INF/views/tiles/default/footer.jsp" />
+	</definition>
+
+	<!-- Order -->
+	<definition name="order" extends="baseLayoutOrder">
+		<put-attribute name="css" value="product.css" />
+		<put-attribute name="main"
+			value="/WEB-INF/views/pages/order/order.jsp" />
+	</definition>
+
+</tiles-definitions>

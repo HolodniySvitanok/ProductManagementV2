@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+body{
+	width: 100%;
+	font-family: 'Arial';
+	font-size: 13px;
+	background-color: #ECEAEB;
+}
+
+#auth{
+	padding-top: 15px;
+	padding-left: 20px;
+	width: 250px;
+	height: 90px;
+	margin: 0 auto;
+	background-color: #700160;
+}
+
+label{
+	color: white;
+}
+
+#message{
+	color: red;
+	width: 250px;
+	height: 20px;
+	margin: 0 auto;
+	margin-top: 80px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+

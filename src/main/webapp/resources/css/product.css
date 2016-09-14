@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+
+.mainDivShow {
+	width: 175px;
+	height: 270px;
+	border: 1px solid #700160;
+	margin-right: 5px;
+	padding: 2px;
+	margin-bottom: 5px;
+	float: left;
+}
+
+.imgShow {
+	width: 175px;
+	height: 240px;
+}
+
+#tableShowProduct{
+}
+
+ #tableShowProduct table {
+	border: 1px solid silver;
+	border-collapse: collapse;
+	width: 100%
+}
+
+ #tableShowProduct th {
+	text-align: left; /* Выравнивание по левому краю */
+	background: #ccc; /* Цвет фона ячеек */
+	padding: 2px; /* Поля вокруг содержимого ячеек */
+	border: 1px solid silver; /* Граница вокруг ячеек */
+	width: 100%;
+}
+
+ #tableShowProduct td {
+	padding: 2px; /* Поля вокруг содержимого ячеек */
+	border: 1px solid silver; /* Граница вокруг ячеек */
+}
+
+ table{
+	background-color: #FFFFF0;
+	border-collapse: separate;
+	min-width: 300px;
+}
+
+ th{
+	padding: 10px;
+}
+
+ td{
+	padding: 5px;
+	border: 1px solid silver;
+}
+
+.delForm{
+	margin-bottom: 20px;
+	width: 175px;
+	height: 280px;
+}
